@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{% block title %}Flask Basics{% endblock %}</title>
+        <link rel="stylesheet" href="/static/styles.css">
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+        <p>Go to the URL and type "add/". Then input two numbers (a & b) as a/b. Or: add/a/b</p>
+        {%block scripts%}{%endblock%}
+    </body>
+</html>
